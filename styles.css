@@ -1,0 +1,39 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+a {
+    color: brown;
+}
+
+.description {
+    font-size: larger;
+    font-weight: 600;
+}
+
+ol, ul {
+    font-size: larger;
+}
+
+ol > li::marker {
+    font-weight: bold;
+}
+
+.credits {
+    font-style: italic;
+}
+
