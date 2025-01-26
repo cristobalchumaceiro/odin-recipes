@@ -2,6 +2,11 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+}
+
 h1 {
     font-size: 48px;
     text-align: center;
@@ -9,10 +14,12 @@ h1 {
 
 h2 {
     font-size: 28px;
+    margin-left: 16px;
 }
 
 h3 {
     font-size: 20px;
+    margin-left: 16px;
     text-decoration: underline;
 }
 
@@ -20,9 +27,12 @@ a {
     color: brown;
 }
 
+p {
+    margin-left: 32px;
+}
+
 .description {
     font-size: larger;
-    font-weight: 600;
 }
 
 ol, ul {
@@ -33,7 +43,32 @@ ol > li::marker {
     font-weight: bold;
 }
 
+ol > li {
+    margin-bottom: 10px;
+}
+
+ul > li {
+    margin-bottom: 8px;
+}
+
 .credits {
     font-style: italic;
+}
+
+.home {
+    display: block;
+    padding: 8px 24px;
+    margin: 0px auto;
+    font-size: larger;
+}
+
+.difficulty {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: baseline;
+}
+
+img.difficulty {
+    height: 1.8em;
 }
 
